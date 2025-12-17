@@ -1,0 +1,24 @@
+/* Body foreground color */
+body {
+  color: #161616;
+}
+
+/* Anchor foreground color */
+a {
+  color: #161616;
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category color */
+.card-category {
+  color: #D73953;
+}
+
+/* Section tagline color */
+.section-tagline {
+  color: #D73953;
+}
