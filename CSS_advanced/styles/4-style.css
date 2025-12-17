@@ -1,15 +1,43 @@
-/* Variables for fonts */
+/* Define custom properties */
 :root {
-  --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-  --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+  /* Custom font-family properties */
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Body uses base font */
+/* Body font and text color */
 body {
+  color: var(--text-color);
   font-family: var(--font-family-base);
 }
 
-/* Headings use title font */
+/* Anchor text color */
+a {
+  color: var(--text-color);
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category color */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Section tagline color */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Heading font-family */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
 }
