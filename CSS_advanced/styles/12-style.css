@@ -25,6 +25,7 @@
   --section-header-align: center;
   --section-tagline-transform: uppercase;
 
+  /* New custom properties for section title */
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
 }
@@ -47,25 +48,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* Link state */
-a:link {
+a {
   color: var(--text-color);
   text-decoration: none;
-}
-
-/* Visited link state */
-a:visited {
-  font-style: italic;
-}
-
-/* Hover state */
-a:hover {
-  text-decoration: underline;
-}
-
-/* Active state */
-a:active {
-  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -80,12 +65,13 @@ a:active {
   text-align: var(--section-header-align);
 }
 
+/* New declaration for section title */
 .section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
+  font-family: var(--font-family-title); /* Use title font family */
+  font-size: var(--font-size-xx-large); /* Set extra large font size */
+  font-weight: var(--font-weight-bold); /* Set bold font weight */
+  margin: var(--section-title-margin); /* Apply margin from variable */
+  color: var(--section-title-color); /* Apply text color from variable */
 }
 
 .section-tagline {
