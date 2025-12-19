@@ -1,4 +1,3 @@
-/* Define custom properties */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -7,53 +6,45 @@
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
 
-  /* Custom font-family properties */
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  /* Custom font-size properties */
+  /* Font size variables */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
   --font-size-xx-large: 4.8rem;
+}
 
-  /* Base font size */
+/* Set base font size to 10px (62.5% of 16px) */
+html {
   font-size: 62.5%;
 }
 
-/* Required empty html selector */
-html {
-}
-
-/* Body font and text color */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
+  /* Set body font size to 1.6rem (16px) */
   font-size: var(--font-size-medium);
 }
 
-/* Anchor text color */
 a {
   color: var(--text-color);
 }
 
-/* Visually hidden elements */
 .visually-hidden {
   display: none;
 }
 
-/* Card category color */
 .card-category {
   color: var(--color-primary);
 }
 
-/* Section tagline color */
 .section-tagline {
   color: var(--color-primary);
 }
 
-/* Heading font-family */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
 }
