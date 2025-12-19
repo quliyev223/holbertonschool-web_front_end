@@ -6,8 +6,12 @@
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
+
+  /* Custom font-family properties */
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Custom font-size properties */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -15,11 +19,12 @@
   --font-size-xx-large: 4.8rem;
 }
 
-/* Base styles */
+/* Set base font size */
 html {
   font-size: 62.5%;
 }
 
+/* Body font and text color */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
