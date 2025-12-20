@@ -99,6 +99,7 @@ a:active {
   color: var(--color-primary);
 }
 
+/* Sections */
 .section {
   padding: var(--section-padding);
 }
@@ -149,15 +150,15 @@ a:active {
 }
 
 /* Reset nav margins and padding, center text */
-nav {
-  margin: 0;   /* Remove default margin */
-  padding: 0;  /* Remove default padding */
-  list-style: none; /* No bullets */
-  text-align: center; /* Center align text */
+.nav {
+  margin: 0;            /* Remove default margin */
+  padding: 0;           /* Remove default padding */
+  list-style: none;     /* No bullets */
+  text-align: center;   /* Center align text */
 }
 
 /* Nav items */
-nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);  /* Font family from variable */
   font-weight: var(--nav-item-font-weight);  /* Boldness from variable */
   font-size: var(--nav-item-font-size);      /* Font size from variable */
@@ -167,12 +168,12 @@ nav .nav-item {
 }
 
 /* Nav links */
-nav .nav-link {
+.nav .nav-link {
   display: block;                       /* Block display */
   padding: 0.5rem 1rem;                 /* Padding: half root top/bottom, full root left/right */
 }
 
 /* Hover effect on nav links */
-nav .nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);     /* Foreground color on hover */
 }
