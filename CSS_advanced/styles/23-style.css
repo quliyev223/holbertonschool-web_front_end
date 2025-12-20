@@ -212,23 +212,21 @@ ul.row {
 
 /* ===== Dark Theme for Sections ===== */
 [data-section-theme="dark"] {
-  --text-color: var(--color-white);          /* Redefine text color */
-  --section-title-color: var(--color-white); /* Redefine section title color */
-  background: var(--color-black);            /* Set background to black */
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background: var(--color-black);
 }
 
 /* ===== Fix Footer & Social Links for Dark Theme ===== */
-/* Footer address inherits text color */
 .footer-address {
-  color: var(--text-color); /* Fix: inherit the correct text color in dark theme */
+  color: var(--text-color);
 }
 
-/* Social links display as block */
 .social-link {
-  display: block; /* Fix: block rendering */
+  display: block;
 }
 
-/* Social links svg children color */
-.social-link svg {
-  fill: var(--text-color); /* Fix: svg icon color matches text color */
+/* Fix: select only direct SVG children */
+.social-link > svg {
+  fill: var(--text-color);
 }
