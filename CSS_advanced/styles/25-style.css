@@ -262,7 +262,7 @@ ul.row {
 }
 
 /* ===== Button styles (25-style.css) ===== */
-a.button {
+.button {
   display: var(--button-display);
   padding: var(--button-padding);
   border: var(--button-border);
@@ -271,7 +271,7 @@ a.button {
   text-decoration: var(--button-text-decoration);
 }
 
-a.button:hover {
+.button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
