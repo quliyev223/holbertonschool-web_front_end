@@ -104,6 +104,7 @@ a:active {
 
 /* Container styling */
 .container {
-  width: 960px;       /* Set fixed width */
-  margin: 0 auto;     /* Center the container: evenly distribute left and right margins */
+  width: 960px;          /* Set fixed width */
+  margin-left: auto;     /* Center horizontally */
+  margin-right: auto;    /* Center horizontally */
 }
